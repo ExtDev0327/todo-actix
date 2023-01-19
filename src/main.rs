@@ -1,7 +1,7 @@
 mod models;
 
 // use crate::models::Status;
-use actix_web::{middleware, web, App, HttpRequest, HttpServer, Responder};
+use actix_web::{middleware, web, App, HttpRequest, HttpServer};
 use std::io;
 // async fn status() -> impl Responder {
 //     web::Json::Ok().json(Status {
